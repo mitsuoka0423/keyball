@@ -20,8 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define DYNAMIC_KEYMAP_LAYER_COUNT 7
-
 #ifdef RGBLIGHT_ENABLE
 //#    define RGBLIGHT_EFFECT_BREATHING
 //#    define RGBLIGHT_EFFECT_RAINBOW_MOOD
@@ -36,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define TAP_CODE_DELAY 5
-
+#define DYNAMIC_KEYMAP_LAYER_COUNT 7
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 6
 #define AUTO_MOUSE_LAYER_KEEP_TIME 30000
